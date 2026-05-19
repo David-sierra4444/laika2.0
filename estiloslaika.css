@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(254, 248, 248);
+}
+
+.carousel-indicators .custom-dot {
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    border: 2px solid #612d91 !important;
+    background-color: transparent !important;
+    opacity: 1 !important;
+    margin: 0 6px !important;
+    transition: background-color 0.3s ease;
+}
+
+
+.carousel-indicators .custom-dot.active {
+    background-color: #612d91 !important;
+}
+
+
+
+.carousel-indicators .promo-dot {
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    border: 2px solid #612d91 !important;
+    background-color: transparent !important;
+    opacity: 1 !important;
+    margin: 0 5px !important;
+    transition: background-color 0.3s ease;
+}
+
+
+.carousel-indicators .promo-dot.active {
+    background-color: #612d91 !important;
+}
+
+
+
+.carousel-indicators .brand-dot {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    border: 2px solid #612d91 !important;
+    background-color: transparent !important;
+    opacity: 1 !important;
+    margin: 0 6px !important;
+    transition: background-color 0.2s ease;
+}
+
+.carousel-indicators .brand-dot.active {
+    background-color: #612d91 !important;
+}
+
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .sub-menu-right {
+    display: none;
+    position: absolute;
+    left: 100%;
+
+    top: 0;
+    margin-left: 0.5rem;
+
+    min-width: 200px;
+    border-radius: 12px;
+}
+
+.dropdown-submenu:hover .sub-menu-right {
+    display: block;
+}
+
+.dropdown-submenu:hover>.dropdown-item {
+    background-color: #f8f9fa;
+    color: #612d91;
+}
